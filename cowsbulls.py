@@ -44,7 +44,7 @@ guess = 0
 while True:
     usernum = input('What is your guess?:> ')
     if usernum == targetnum:
-        print ('Yu wun focker in: WHOLE IN ONE!!!')
+        print ('Yu wun Broooo in: WHOLE IN ONE!!!')
         break
     else:
         result = compare_bullscows(usernum, targetnum, Bulls, Cows)
@@ -54,7 +54,7 @@ while True:
             result = compare_bullscows(usernum, targetnum, Bulls, Cows)
             guess += 1
 
-        print ('Yu wun FACCKKAAAAAAHHHHH in ' + str(guess) + ' guesses!!! CHEAT')
+        print ('Yu wun Broooo in ' + str(guess) + ' guesses!!! CHEAT')
         break
 
 print ('END')
